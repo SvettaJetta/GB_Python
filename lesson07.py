@@ -16,7 +16,7 @@ OPERATIONS_NUMBER = {
     0: "Exit"
 }
 
-
+logging.basicConfig(filename = "mylog.log")
 def logger(a, b, operant):
     logging.info(f"The values of a and b are {a} and {b}.")
     try:
